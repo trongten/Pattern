@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="Tuan4.BacSyForm"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.JAXBContext"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.Unmarshaller"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="javax.swing.JList"/>
+    <fullyQualifiedTypeName name="javax.swing.DefaultListModel"/>
+    <fullyQualifiedTypeName name="javax.swing.event.ListSelectionListener"/>
+    <fullyQualifiedTypeName name="Tuan4.benhnhan"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="sanpham.Giay"/>
+    <fullyQualifiedTypeName name="sanpham.Dep"/>
+    <fullyQualifiedTypeName name="nhamay.Anh"/>
+    <fullyQualifiedTypeName name="nhamay.My"/>
+    <fullyQualifiedTypeName name="AbstractFactory.SanPhamFactory"/>
+    <fullyQualifiedTypeName name="AbstractFactory.NhaMayFactory"/>
+    <fullyQualifiedTypeName name="AbstractFactory.AbstractFacotry"/>
+    <fullyQualifiedTypeName name="AbstractFactory.AbstractProducer"/>
+    <fullyQualifiedTypeName name="nhamay.NhaMay"/>
+    <fullyQualifiedTypeName name="sanpham.SanPham"/>
+    <fullyQualifiedTypeName name="Bai7.IBattery"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="State.State"/>
+    <fullyQualifiedTypeName name="Factory.Bank"/>
+    <fullyQualifiedTypeName name="Factory.Sacombank"/>
+    <fullyQualifiedTypeName name="Factory.ViettinBank"/>
+    <fullyQualifiedTypeName name="Factory.BankFactory"/>
+</qualifiedTypeNameHistroy>

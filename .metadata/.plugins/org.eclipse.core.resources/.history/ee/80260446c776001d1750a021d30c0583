@@ -1,0 +1,20 @@
+package AbstractFactory;
+
+import nhamay.NhaMay;
+import sanpham.SanPham;
+
+public class SanPhamFactory extends AbstractFacotry{
+
+	@Override
+	public SanPham getSanPham() {
+		// TODO Auto-generated method stub
+		return ;
+	}
+
+	@Override
+	public NhaMay getNhaMay() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

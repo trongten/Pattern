@@ -1,0 +1,20 @@
+package Bai7;
+
+public interface IBattery {
+	int getFullCapacity();
+
+	
+	int getCurrentCapacity();
+
+	
+	boolean discharge();
+
+
+	boolean charge();
+
+	
+	void gm_add(IBattery b);
+
+	
+	void gm_remove(IBattery b);
+}

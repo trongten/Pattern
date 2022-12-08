@@ -1,0 +1,21 @@
+package Bai7;
+
+public interface IBattery {
+	int getFullCapacity();
+
+	// tác vụ tham kho công suất hiện hành của battery
+	int getCurrentCapacity();
+
+	// tác vụ thi 1u (n vị iện nng) khi battery
+	boolean discharge();
+
+	// tác vụ np 1u vào battery
+	boolean charge();
+
+	// 2. Nhóm các tác vụ qun lý các thành phần con của ối tợng tích hợp
+	// tác vụ thêm thành phần b vào battery hiện hành
+	void gm_add(IBattery b);
+
+	// tác vụ bớt thành phần b ra khi battery hiện hành
+	void gm_remove(IBattery b);
+}

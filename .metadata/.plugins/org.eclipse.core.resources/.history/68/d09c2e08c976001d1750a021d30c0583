@@ -1,0 +1,12 @@
+package AbstractFactory;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		AbstractFacotry a1 = AbstractProducer.getFacttory("NhaMay");
+		AbstractFacotry a2 = AbstractProducer.getFacttory("SanPham");
+
+	}
+
+}

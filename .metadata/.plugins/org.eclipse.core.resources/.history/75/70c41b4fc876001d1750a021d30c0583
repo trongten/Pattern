@@ -1,0 +1,7 @@
+package AbstractFactory;
+
+public class AbstractProducer {
+	public AbstractFacotry getFacttory(String s) {
+		
+	}
+}

@@ -1,0 +1,14 @@
+package Factory;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Bank bank = BankFactory.getFactory("ACB");
+		bank.getInfo();
+		Bank bank = BankFactory.getFactory("Sacombank");
+		bank.getInfo();
+		Bank bank = BankFactory.getFactory("Vietinbank");
+		bank.getInfo();
+	}
+
+}

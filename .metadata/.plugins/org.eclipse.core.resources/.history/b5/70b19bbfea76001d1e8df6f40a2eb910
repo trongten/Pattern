@@ -1,0 +1,11 @@
+package State;
+
+public class KhongDuTien implements State{
+
+	@Override
+	public void doAction(Context context) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

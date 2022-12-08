@@ -1,0 +1,11 @@
+package sanpham;
+
+public class Dep implements SanPham {
+
+	@Override
+	public void ban() {
+		System.out.println("Dep");
+
+	}
+
+}

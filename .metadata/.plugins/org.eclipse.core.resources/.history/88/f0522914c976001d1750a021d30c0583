@@ -1,0 +1,20 @@
+package AbstractFactory;
+
+import nhamay.NhaMay;
+import sanpham.SanPham;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		AbstractFacotry a1 = AbstractProducer.getFacttory("NhaMay");
+		AbstractFacotry a2 = AbstractProducer.getFacttory("SanPham");
+
+		NhaMay b1 = a1.getNhaMay("Anh");
+		SanPham b2 = a2.getSanPham("Giay");
+		
+		System.out.println(b1);
+		System.out.println(b2);
+	}
+
+}

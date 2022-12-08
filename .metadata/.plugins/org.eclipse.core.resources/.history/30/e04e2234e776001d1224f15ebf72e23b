@@ -1,0 +1,36 @@
+package Bai7;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		IBattery b1 = new Cell(2);
+		// hiển thị trình trạng pin hiện hành
+		System.out.println("DL max của b1 = " + b1.getFullCapacity() + ", DL hiện hành = " + b1.toString());
+		// thử nạp thêm 1u và hiển thị kết quả ể kiểm tra
+		b1.charge();
+		System.out.println("Dung lượng của b1 sau khi nạp thêm 1u = " + b1.toString());
+		// thử xả 4u và hiển thị kết quả ể kiểm tra
+		b1.discharge();
+		b1.discharge();
+		b1.discharge();
+		b1.discharge();
+		System.out.println("Dung lượng của b1 sau khi xả 4u = " + b1.toString());
+		// thử tạo pin tích hợp
+		b1 = new Cell(10);
+		Battery b2 = new Battery(3, 5, false); // dùng chiến lược nạp/xả MinMax
+		Battery b3 = new Battery(2, 10, false); // dùng chiến lược nạp/xả MinMax
+		b3.gm_add(b1);
+		b3.gm_add(b2);
+		System.out.println("Trạng thái của b3 = " + b3.toString());
+		// thử xả 2u và hiển thị kết quả ể kiểm tra
+		b3.discharge();
+		b3.discharge();
+		System.out.println("b3 sau khi xả 2u = " + b3.toString());
+		// thử nạp 2u và hiển thị kết quả ể kiểm tra
+		b3.charge();
+		b3.charge();
+		System.out.println("b3 sau khi nạp 2u = " + b3.toString());
+
+	}
+
+}

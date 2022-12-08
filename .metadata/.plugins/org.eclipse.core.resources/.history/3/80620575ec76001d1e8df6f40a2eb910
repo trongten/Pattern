@@ -1,0 +1,10 @@
+package Factory;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Bank bank = BankFactory.getFactory("ACB");
+		bank.getInfo();
+	}
+
+}

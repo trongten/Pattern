@@ -1,0 +1,10 @@
+package AbstractFactory;
+
+import nhamay.NhaMay;
+import sanpham.SanPham;
+
+public class SanPhamFactory extends AbstractFacotry{
+
+	
+
+}

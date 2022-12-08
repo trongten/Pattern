@@ -1,0 +1,44 @@
+package Bai7;
+
+public class Cell implements IBattery{
+
+	
+	private int capacity;
+	private int fullCapacity;
+
+	// tác vụ khởi to battery
+	public Cell(int capamax) {
+		fullCapacity = capamax;
+		capacity = capamax;
+	}
+	
+	
+	@Override
+	public int getFullCapacity() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getCurrentCapacity() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean discharge() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean charge() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public String toString() {
+		// TODO Auto-generated method stub
+		 return String.valueOf(capacity);
+	}
+}

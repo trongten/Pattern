@@ -1,0 +1,11 @@
+package sanpham;
+
+public class Giay implements SanPham {
+
+	@Override
+	public void ban() {
+		System.out.println("Giay");
+
+	}
+
+}

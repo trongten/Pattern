@@ -1,0 +1,16 @@
+package State;
+
+public class Demo {
+	public static void main(String[] args) {
+		Context context = new Context();
+
+		HetHang hetHang = new HetHang();
+		hetHang.doAction(context);
+
+		KhongDuTien khongDuTien = new KhongDuTien();
+		khongDuTien.doAction(context);
+
+		XuatHang xuatHang = new XuatHang();
+		xuatHang.doAction(context);
+	}
+}
